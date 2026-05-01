@@ -10,8 +10,7 @@ import java.util.List;
 // Allow requests from local dev AND deployed Render/Vercel frontends
 @CrossOrigin(origins = {
     "http://localhost:3000",
-    "https://*.onrender.com",
-    "https://*.vercel.app"
+    "https://portfolio-frontend-i1rq.onrender.com"
 }, allowedHeaders = "*")
 @RestController
 @RequestMapping("/users")
